@@ -10,5 +10,5 @@ def test_root():
     secret_key = os.getenv('SECRET_KEY')
     assert response.status_code == 200
     assert response.json() == {
-         "message": f"Secret key is: {secret_key}. I'm learning GitHub Actions (Branch Protection, Automated Testing, Workflow creation, GitHub Secrets)"
+         "message": f"Secret key is: {secret_key}. I'm learning GitHub Actions (Branch Protection, Automated Testing, Workflow creation, GitHub Secrets,also docker basics)"
     }
