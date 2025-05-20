@@ -9,5 +9,5 @@ load_dotenv()
 def root():
     secret_key = os.getenv('SECRET_KEY')
     return {
-        "message": f"Secret key is: {secret_key}. I am learning GitHub Actions (Branch Protection, Automated Testing, Workflow creation, GitHub Secrets)"
+        "message": f"Secret key is: {secret_key}. I'm learning GitHub Actions (Branch Protection, Automated Testing, Workflow creation, GitHub Secrets,also docker basics)"
     }
