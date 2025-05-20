@@ -1,6 +1,18 @@
+# Ignore environment file
 .env
+
+# Ignore Jupyter Notebook checkpoints
 **/.ipynb_checkpoints/
+
+# Ignore Python cache
 **/__pycache__/
 *.pyc
-/.venv
-/.pytest_cache
+*.pyo
+*.pyd
+
+# Ignore virtual environment folder
+.venv/
+venv/
+
+# Ignore pytest cache
+.pytest_cache/
