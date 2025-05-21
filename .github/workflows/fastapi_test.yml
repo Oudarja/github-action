@@ -19,7 +19,7 @@ jobs:
                 python-version: [3.12.9]
         
         env:
-            SECRET_KEY: 1234
+            SECRET_KEY: ${{ secrets.SECRET_KEY }}
         
         steps:
            # Clones your repo into the GitHub Actions runner.
