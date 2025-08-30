@@ -4,9 +4,6 @@ Project Title is a FastAPI application designed to learn github-action and workf
 ## Overview
 This project showcases a basic FastAPI application that loads environment variables from a `.env` file and exposes a single endpoint at the root URL (`/`). The endpoint returns a dictionary containing a message with a secret key stored in the environment variable `SECRET_KEY`.
 
-## Python Version
-This project uses **Python 3.12**.
-
 ## Features
 * Loads environment variables from a `.env` file using `dotenv`.
 * Exposes a single endpoint at the root URL (`/`) that returns a dictionary containing a message with the secret key.
